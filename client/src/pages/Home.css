@@ -1,0 +1,19 @@
+.recipe-card {
+    transition: transform 0.5s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05); /* Increase size on hover */
+  }
+  
+  .img-container {
+    height: 200px; /* Custom height for image container */
+    overflow: hidden; /* Hide overflow to fit image */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Ensure image takes full width of container */
+    height: 100%; /* Ensure image takes full height of container */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  }
+  

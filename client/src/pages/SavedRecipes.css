@@ -1,0 +1,16 @@
+.saved-recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .saved-recipe-card:hover {
+    transform: translateY(-5px); /* Add slight elevation on hover */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Set custom height for images */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  }
+  
